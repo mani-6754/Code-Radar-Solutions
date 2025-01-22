@@ -5,5 +5,5 @@ int main()
     int age;
     scanf("%s %s",n,h);
     scanf("%d",age);
-    printf("Name: %s/nAge: %d/nHobby: %s",n,age,h);
+    printf("Name: %s\nAge: %d\nHobby: %s",n,age,h);
 }
