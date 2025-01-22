@@ -4,7 +4,8 @@ int main()
     char n[100];
     int age[100];
     char h[100];
-    scanf("%s %s",&n,&h);
+    scanf("%s",&n);
     scanf("%d",&age);
+    scanf("%s",&h)
     printf("Name: %s\nAge: %d\nHobby: %s",n,age,h);
 }
