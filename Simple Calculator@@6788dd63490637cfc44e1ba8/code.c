@@ -11,7 +11,14 @@ void main()
     }else if(c=='*'){
         printf("%d",a*b);
     }else{
+        if(b==0){
+        printf("error")
+    }else{
+        if(b==0){
+            printf("error");
+            }else{
         printf("%d",a/b);
+    }
     }
     
 }
