@@ -12,7 +12,7 @@ void main()
         printf("%d",a*b);
     }else{
         if(b==0){
-        printf("error")
+        printf("error");
     }else{
         if(b==0){
             printf("error");
