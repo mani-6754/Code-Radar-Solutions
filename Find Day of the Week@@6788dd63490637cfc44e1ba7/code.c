@@ -29,7 +29,7 @@ void main()
     }
     else if(a==7)
     {
-        printf("Sunday")
+        printf("Sunday");
     }
     else
     {
