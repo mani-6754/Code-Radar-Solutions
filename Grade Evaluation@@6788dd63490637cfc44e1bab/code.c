@@ -19,8 +19,12 @@ void main()
     {
         printf("Below Average");
     }
-    else
+    else if(a=='F')
     {
         printf("Fail");
+    }
+    else
+    {
+        printf("Invalid");
     }
 }
