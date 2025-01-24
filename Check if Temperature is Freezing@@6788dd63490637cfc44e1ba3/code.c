@@ -9,6 +9,6 @@ void main()
     }
     else
     {
-        printf("Not Freezing");
+        printf("Above Freezing");
     }
 }
