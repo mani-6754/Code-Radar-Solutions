@@ -6,7 +6,7 @@ void main()
     c=(a>>b)&1;
     if(c==1)
     {
-        (a>>b)&1=0;
+        c=0;
     }
     {
         printf("%d",a);
