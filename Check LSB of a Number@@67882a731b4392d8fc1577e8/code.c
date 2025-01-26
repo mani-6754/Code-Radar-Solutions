@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <conio.h>
 void main()
 {
 
@@ -13,5 +12,4 @@ else
 {
 printf("Not Set");    
 }
-getch();
 }
