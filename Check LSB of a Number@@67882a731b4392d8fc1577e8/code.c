@@ -11,6 +11,6 @@ printf("Set");
 else
 {
 printf("Not Set");    
-getch();
 }
+getch();
 }
