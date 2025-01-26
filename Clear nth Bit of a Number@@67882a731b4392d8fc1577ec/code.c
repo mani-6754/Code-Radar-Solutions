@@ -1,9 +1,10 @@
 #include <stdio.h>
 void main()
 {
-    int a,b;
+    int a,b,c;
     scanf("%d %d",&a,&b);
-    if((a>>b)&1==1)
+    c=(a>>b)&1;
+    if(c==1)
     {
         (a>>b)&1=0;
     }
