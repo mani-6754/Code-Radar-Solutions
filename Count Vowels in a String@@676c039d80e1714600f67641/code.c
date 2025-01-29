@@ -6,7 +6,7 @@ void main()
     for(char i in a;)
     {
         c=0
-        if(i=='a'|i=='e'|i=='o'|i=='i'|i=='u')
+        if(i=='a'||i=='e'||i=='o'||i=='i'||i=='u')
         {
             c+=1;
         }
