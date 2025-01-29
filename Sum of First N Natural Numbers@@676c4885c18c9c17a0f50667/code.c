@@ -7,5 +7,5 @@ void main()
     {
         a+=i;
     }
-    printtf("%d",a);
+    printf("%d",a);
 }
