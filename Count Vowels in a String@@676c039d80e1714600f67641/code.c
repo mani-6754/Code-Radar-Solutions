@@ -3,10 +3,10 @@ void main()
 {
     char a[1000];
     scanf("%s",&a);
-    for(char i in a;)
+    for(int i=0;i<=sizeof(a);i++)
     {
         c=0
-        if(i=='a'||i=='e'||i=='o'||i=='i'||i=='u')
+        if(a[i]=='a'||a[i]=='e'||a[i]=='o'||a[i]=='i'||a[i]=='u')
         {
             c+=1;
         }
