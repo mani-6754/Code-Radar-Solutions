@@ -5,6 +5,7 @@ void main()
     scanf("%d",&a);
     for(int i=0; i<=a;i++)
     {
-        printf("%d",i+a);
+        i+=i
+        printf("%d",i);
     }
 }
