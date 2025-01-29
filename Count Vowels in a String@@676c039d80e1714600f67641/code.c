@@ -10,6 +10,6 @@ void main()
         {
             c+=1;
         }
-    }
     printf("%d",c);
+    }
 }
