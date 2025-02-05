@@ -2,10 +2,9 @@
 void main()
 {
     int a;
-    int f=1;
     scanf("%d",&a);
     for(int i=2;i<=a;i++)
-    {
+    {int f=1;
        for(int j=2;j<i;j++)
         {
             if(i%j==0)
@@ -23,5 +22,4 @@ void main()
     {
         printf("Not Prime");
     }
-    
 }
