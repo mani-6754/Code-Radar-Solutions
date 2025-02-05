@@ -5,7 +5,7 @@ void main()
     scanf("%s",&a);
     for(int i=0;i<=sizeof(a);i++)
     {
-        c=0
+        int c=0;
         if(a[i]=='a'||a[i]=='e'||a[i]=='o'||a[i]=='i'||a[i]=='u')
         {
             c+=1;
