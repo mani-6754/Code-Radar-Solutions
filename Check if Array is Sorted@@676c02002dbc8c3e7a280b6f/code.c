@@ -2,7 +2,7 @@
 void main()
 {
     int n,s[n];
-    scanf("%d\n",&a);
+    scanf("%d\n",&n);
     for(int i=1,i<=n,i++)
     {
         scanf("%d",&s[i]);
@@ -15,5 +15,4 @@ void main()
         printf("Sorted");
     }
     }
-    
 }
