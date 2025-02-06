@@ -21,6 +21,11 @@ int main()
             {
                 min=s[j];
             }
+            if(s[j]==s[k])
+            {
+                max=s[j];
+                min=s[j];
+            }
         }
     }
     printf("%d %d",min,max);
