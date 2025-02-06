@@ -9,7 +9,7 @@ int main()
         scanf("%d",&a);
         s[i]=a;
     }
-    for(int j=0;j<n-1,j++)
+    for(int j=0;j<n-1;j++)
     {
         for(int k=0;k<j;k++)
         {
