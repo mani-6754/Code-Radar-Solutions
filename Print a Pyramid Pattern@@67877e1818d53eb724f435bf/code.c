@@ -9,6 +9,6 @@ void main()
         {
             printf("*");
         }
-        printf(" ");
+        printf(" \n");
     }
 }
