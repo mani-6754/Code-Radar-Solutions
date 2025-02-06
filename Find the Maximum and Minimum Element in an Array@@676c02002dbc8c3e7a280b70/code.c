@@ -19,7 +19,7 @@ int main()
             }
             if(s[j]<s[k])
             {
-                min=s[j]
+                min=s[j];
             }
         }
     }
