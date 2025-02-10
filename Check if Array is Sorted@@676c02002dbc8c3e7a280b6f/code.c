@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main()
+void main()
 {
     int n,a;
     scanf("%d\n",&n);
@@ -14,7 +14,7 @@ int main()
         if(s[j+1]<s[j])
         {
             printf("Not Sorted");
-            return 0;
+            //return 0;
         }
     }
     printf("Sorted");
