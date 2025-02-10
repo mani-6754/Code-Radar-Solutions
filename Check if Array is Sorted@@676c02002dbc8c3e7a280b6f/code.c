@@ -14,7 +14,7 @@ void main()
         if(s[j+1]<s[j])
         {
             printf("Not Sorted");
-            //return 0;
+            return 0;
         }
             }
     printf("Sorted");
