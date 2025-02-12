@@ -14,7 +14,7 @@ void main()
             }
             else
             {
-                printf(" ");
+                printf("  ");
             }
         }
         printf("\n");
