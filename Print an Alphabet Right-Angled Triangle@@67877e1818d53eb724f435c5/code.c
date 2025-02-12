@@ -8,10 +8,10 @@ void main()
     {
         for(char j='A';j<='Z';j++)
         {
-            for(char k='A';k<=j;k--)
-            {
+            // for(char k='A';k<=j;k--)
+            // {
                 printf("%c ",j);
-            }
+            // }
         }
          printf("\n");
      }
