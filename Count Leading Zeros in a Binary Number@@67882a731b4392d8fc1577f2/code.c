@@ -3,8 +3,8 @@
 
 
 int main() {
-
-    unsigned int num = 10; // Example number
+    unsigned int num;
+    scanf("%ld",&num);
 
     int leading_zeros = __builtin_clz(num);
 
