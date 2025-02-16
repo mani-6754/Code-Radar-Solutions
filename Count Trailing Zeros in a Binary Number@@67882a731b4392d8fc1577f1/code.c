@@ -1,12 +1,25 @@
 #include <stdio.h>
+ 
 void main()
-{ 
-    int num,count = 0;
-    scanf("%ld",&num);
-    while (num & 1 == 0) 
-    { 
-        count++;
-        num >>= 1; // Shift right by one bit
+{
+    int j = 31, i, count = 0;
+    unsigned int num;
+    int b[32] = {0};
+ 
+    printf("enter the number:");
+    scanf("%d", &num);
+    while (num != 0)
+    {
+        if (num & 1 == 1)
+        {
+            break;
+        }
+        else
+        {
+            count++;
+            num = num >> 1;
+ 
+        }
     }
-    printf("%d",count);
+    printf("\n%d", count);
 }
