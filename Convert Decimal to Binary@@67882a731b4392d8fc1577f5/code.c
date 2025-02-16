@@ -2,6 +2,6 @@
 void main()
 {
     int n;
-    scanf("%d",&n);
-    printf("%d"n&n);
+    scanf("%ld",&n);
+    printf("%ld"n&n);
 }
