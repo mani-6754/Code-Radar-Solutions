@@ -10,14 +10,12 @@ int main() {
     
   int n;
   long long bin;
-  
-  printf("Enter a decimal number: ");
   scanf("%d", &n);
   
   // convert to binary using the convert() function
   bin = convert(n);
   
-  printf("%d in decimal =  %lld in binary", n, bin);
+  printf("%lld", bin);
 
   return 0;
 }
