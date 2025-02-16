@@ -4,9 +4,6 @@
 int main()
 {
     int num, order, i;
-
-    /* Input number from user */
-    printf("Enter any number: ");
     scanf("%d", &num);
 
     /* Initially set the order to max size of integer */
@@ -25,7 +22,7 @@ int main()
         }
     }
 
-    printf("Lowest order set bit in %d is %d", num, order);
+    printf("%d", order);
 
     return 0;
 }
