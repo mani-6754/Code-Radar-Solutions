@@ -8,7 +8,7 @@ int main() {
 
     int leading_zeros = __builtin_clz(num);
 
-    printf("Number of leading zeros in %u is: %d\n", num, leading_zeros);
+    printf("%d", leading_zeros);
 
     return 0;
 
