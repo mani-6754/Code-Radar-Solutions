@@ -9,6 +9,5 @@ void main()
         num >>= 1; // Shift right by one bit
 
     }
-
-    return count;
+    printf("%d",count);
 }
