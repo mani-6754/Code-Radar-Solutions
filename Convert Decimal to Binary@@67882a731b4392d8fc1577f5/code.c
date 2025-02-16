@@ -1,7 +1,7 @@
 #include<stdio.h>
 void main() {
-    int remainder,result = 0,multiplier = 1;
-    int input;
+    unsigned int remainder,result = 0,multiplier = 1;
+    unsigned int input;
     scanf("%ld",&input);
     while(input){
         remainder = input%2;
