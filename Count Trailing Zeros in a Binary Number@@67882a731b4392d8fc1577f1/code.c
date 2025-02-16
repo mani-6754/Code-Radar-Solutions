@@ -2,6 +2,7 @@
 void main()
 { 
     int num,count = 0;
+    scanf("%ld",&num);
     while (num & 1 == 0) { // Check if the least significant bit is zero
 
         count++;
