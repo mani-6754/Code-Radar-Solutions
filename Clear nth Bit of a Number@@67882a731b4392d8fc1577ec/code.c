@@ -1,9 +1,9 @@
 #include <stdio.h>
 void main()
 {
-    int a,b,c;
-    scanf("%d %d",&a,&b);
-    {
-        printf("%d",(0>>b)|a);
-    }
+    int N,K;
+    scanf("%d %d",&N,&K);
+    N &= ~ (1 << K);
+    printf("%d",N);
+    
 }
