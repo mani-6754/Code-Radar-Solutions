@@ -19,5 +19,5 @@ void main()
  
         }
     }
-    printf("\n%d", count);
+    printf("%d", count);
 }
