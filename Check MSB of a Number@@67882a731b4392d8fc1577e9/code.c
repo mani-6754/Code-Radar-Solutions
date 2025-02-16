@@ -12,6 +12,6 @@ void main()
     }
     else
     {
-        printf("Reset");
+        printf("Not Set");
     }
 }
