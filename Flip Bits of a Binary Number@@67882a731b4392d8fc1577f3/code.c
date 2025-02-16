@@ -2,7 +2,7 @@
 void main()
 {
     int n,a;
-    a=n+1;
-    a=-a;
+    scanf("%d",&n);
+    a=-(n+1);
     printf("%d",a);
 }
