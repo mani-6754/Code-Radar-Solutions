@@ -1,13 +1,13 @@
 #include<stdio.h>
-#include<math.h>
 void main() {
-    int a,b=0;
-    int n;
-    scanf("%d",&n);
-    for(int i=0;n>0;i++) {
-        a=n%2;
-        n=n/2;
-        b=b+(pow(10,i)*a);
+    int remainder,result = 0,multiplier = 1;
+    int input;
+    scanf("%d",&input);
+    while(input){
+        remainder = input%2;
+        result = remainder*multiplier + result;
+        multiplier*=10;
+        input/=2;
     }
-    printf("%d",b);
+    printf("%d",result);
 }
