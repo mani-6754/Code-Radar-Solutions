@@ -1,7 +1,8 @@
 #include <stdio.h>
 void main()
 {
-    unsigned int n;
+    unsigned int n,a;
     scanf("%ld",&n);
-    printf("%ld"n&n);
+    a=n&n;
+    printf("%ld"a);
 }
