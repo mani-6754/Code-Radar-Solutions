@@ -1,9 +1,9 @@
 #include <stdio.h>
 void main()
 {
-    int N,K;
+    int N,K,p;
     scanf("%d %d",&N,&K);
-    N ^= 1 << K;
-    printf("%d",N);
+    p=1<<K^N;
+    printf("%d",p);
     
 }
