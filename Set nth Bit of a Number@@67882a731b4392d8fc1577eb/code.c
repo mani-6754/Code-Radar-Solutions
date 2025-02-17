@@ -3,7 +3,7 @@ void main()
 {
     int N,K;
     scanf("%d %d",&N,&K);
-    N |= 1 << K; 
+    K<<1|N; 
     printf("%d",N);
     
 }
