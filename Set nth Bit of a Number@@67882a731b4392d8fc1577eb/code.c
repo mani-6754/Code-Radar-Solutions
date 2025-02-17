@@ -1,9 +1,9 @@
 #include <stdio.h>
 void main()
 {
-    int N,K;
+    int N,K,p;
     scanf("%d %d",&N,&K);
-    K<<=1|N; 
+    p=1>>K|N; 
     printf("%d",N);
     
 }
