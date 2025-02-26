@@ -5,7 +5,7 @@ void main()
     char b;
     int c=0;
     scanf("%s\n%c",&a,&b);
-    for(int i=0;i<n;i++)
+    for(int i=0;i<sizeof(a);i++)
     {
         if(a[i]==b)
         {
