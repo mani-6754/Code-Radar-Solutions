@@ -9,7 +9,6 @@ void main()
         if(a[i]==o)
         {
             a[i]=c;
-            break;
         }
     }
     printf("%s",a);
