@@ -1,7 +1,7 @@
 #include <stdio.h>
 void main()
 {
-    char a[];
+    char a;
     scanf("%s",&a);
     printf("%d",sizeof(a));
 }
