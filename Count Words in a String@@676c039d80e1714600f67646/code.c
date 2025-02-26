@@ -1,8 +1,8 @@
 #include <stdio.h>
 void main()
 {
-    char a[i];
     int i=sizeof(a);
+    char a[i];
     scanf("%s",&a);
     printf("%d",i);
 }
