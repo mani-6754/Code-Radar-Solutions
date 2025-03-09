@@ -8,7 +8,7 @@ void main()
     {
         if(a[i]==' ')
         {
-            a[i]*=m;
+            a[i]=*m;
         }
     }
     printf("%s",a);
