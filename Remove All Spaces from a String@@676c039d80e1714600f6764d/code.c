@@ -5,10 +5,10 @@ void main()
     scanf("%s",&a);
     for(int i=0;i<sizeof(a);i++)
     {
-        if(a[i]==" ")
+        if(a[i]==' ')
         {
             a[i]="";
         }
     }
-    printf("%d",a);
+    printf("%s",a);
 }
