@@ -12,7 +12,7 @@ void main()
             a[j]=a[i];
             j++;
         }
-        a[j]="\0";
+        a[j]='\0';
     }
     printf("%s",a);
 }
