@@ -1,6 +1,6 @@
-void isPrime()
+void isPrime(int n)
 {
-    int n,i,a[i],b,f;
+    int i,a[i],b,f;
     scanf("%d",&n);
     for(i=1;i<=n;i++)
     {
