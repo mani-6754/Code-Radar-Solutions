@@ -1,4 +1,4 @@
-void isPrime(int n)
+int isPrime(int n)
 {
     // int i,a[i],b,f;
     // scanf("%d",&n);
