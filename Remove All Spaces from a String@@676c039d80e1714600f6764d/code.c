@@ -7,7 +7,7 @@ void main()
     {
         if(a[i]==' ')
         {
-            a[i]=;
+            a[i]="";
         }
     }
     printf("%s",a);
