@@ -34,7 +34,11 @@ int isPrime(int n)
         }
         if(f==1)
         {
-            return n;
+            return 1;
+        }
+        else
+        {
+            return 0;
         }
     }
 }
