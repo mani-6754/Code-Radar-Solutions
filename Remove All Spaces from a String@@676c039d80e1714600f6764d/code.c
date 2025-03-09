@@ -9,9 +9,8 @@ void main()
     {
         if(a[i]==' ')
         {
-            a[j]=a[i];
+            a[i]='\0';
         }
-        a[j]='\0';
     }
     printf("%s",a);
 }
