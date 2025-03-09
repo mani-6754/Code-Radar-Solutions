@@ -5,12 +5,13 @@ int printPrimesInRange(int a,int b)
     {
         int f=1;
        
-        if(i==1||i<=0)
+       
+        for(int j=2;j<i;j++)
+        {
+             if(i==1||i<=0)
         {
             f==0;
         }
-        for(int j=2;j<i;j++)
-        {
             if(i%j==0 )
             {
                 f=0;
