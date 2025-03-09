@@ -1,8 +1,8 @@
 void isPrime()
 {
-    int n,a[i],b,f;
+    int n,,i,a[i],b,f;
     scanf("%d",&n);
-    for(int i=1;i<=n;i++)
+    for(i=1;i<=n;i++)
     {
         f=1;
         scanf("%d",&a);
