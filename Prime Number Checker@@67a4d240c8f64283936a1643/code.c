@@ -20,25 +20,15 @@ int isPrime(int n)
     //         printf("%d",a[i]);
     //     }
     // } 
-
-    for(int i=1;i<=n;i++)
+    for(int i=2;i<n;i++)
     {
-        int f=1;
-        for(int j=2;j<i;j++)
+        if(n%i==0)
         {
-            if(i%j==0)
-            {
-                f=0;
-                break;
-            }
-        }
-        if(f==1)
-        {
-            return 1;
+            return 0;
         }
         else
         {
-            return 0;
+            return 1;
         }
     }
 }
