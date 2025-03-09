@@ -4,15 +4,9 @@ int printPrimesInRange(int a,int b)
     for(int i=a;i<=b;i++)
     {
         int f=1;
-       
-       
         for(int j=2;j<i;j++)
         {
-             if(i==1||i<=0)
-        {
-            f==0;
-        }
-            if(i%j==0 )
+            if(i%j==0||i==1||i<=0)
             {
                 f=0;
                 break;
@@ -23,7 +17,6 @@ int printPrimesInRange(int a,int b)
             printf("%d ",i);
             c+=1;
         }
-       
     }
      if(c==0)
         {
