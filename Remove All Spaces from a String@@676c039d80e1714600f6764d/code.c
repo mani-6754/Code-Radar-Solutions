@@ -11,6 +11,10 @@ void main()
         {
             a[i]='\0';
         }
+        else
+        {
+            a[i]=a[i];
+        }
     }
     printf("%s",a);
 }
