@@ -6,7 +6,6 @@ int printPrimesInRange(int a,int b)
         if(i==1)
         {
             f==0;
-            break;
         }
         for(int j=2;j<i;j++)
         {
