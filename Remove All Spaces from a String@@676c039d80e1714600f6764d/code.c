@@ -3,7 +3,7 @@ void main()
 {
     char a[100];
     scanf("%s",&a);
-    char* m="";
+    char m="";
     for(int i=0;i<sizeof(a);i++)
     {
         if(a[i]==' ')
