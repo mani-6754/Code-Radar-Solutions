@@ -3,13 +3,14 @@ void main()
 {
     char a[100];
     scanf("%s",&a);
-    char m="\0";
     for(int i=0;i<sizeof(a);i++)
     {
         if(a[i]==' ')
         {
-            a[i]=m;
+            a[j]=a[i];
+            j++;
         }
+        a[j]="\0";
     }
     printf("%s",a);
 }
