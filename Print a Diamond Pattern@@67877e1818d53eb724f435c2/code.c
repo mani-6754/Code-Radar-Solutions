@@ -9,14 +9,10 @@ int main()
         int comp;
         if (i < n) comp = 2 * (n - i) - 1;
         else comp = 2 * (i - n + 1) + 1;
-
-        // First inner loop to print leading whitespaces
         for (int j = 0; j < comp; j++)
             printf(" ");
-
-        // Second inner loop to print stars *
         for (int k = 0; k < 2 * n - comp; k++) {
-            printf("* ");
+            printf("*");
         }
         printf("\n");
     }
