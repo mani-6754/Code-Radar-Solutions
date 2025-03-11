@@ -1,32 +1,26 @@
 #include <stdio.h>
-int main()
-{
-    int n,a,max,min;
-    scanf("%d",&n);
-    int s[n];
-    for(int i=0;i<n;i++)
-    {
-        scanf("%d",&a);
-        s[i]=a;
-    }
-    for(int j=0;j<n-1;j++)
-    {
-        for(int k=0;k<j;k++)
-        {
-            if(s[j]>s[k])
-            {
-                max=s[j];
-            }
-            if(s[j]<s[k])
-            {
-                min=s[j];
-            }
-            if(s[j]==s[k])
-            {
-                max=s[j];
-                min=s[j];
-            }
+
+int main() {
+    int arr[] = {10, 5, 20, 8, 15};  // Sample array
+    int n = sizeof(arr) / sizeof(arr[0]); // Calculate the size of the array
+    int min, max;
+
+    // Initialize min and max with the first element
+    min = max = arr[0];
+
+    // Iterate through the rest of the array
+    for (int i = 1; i < n; i++) {
+        if (arr[i] < min) {
+            min = arr[i];  // Update min if a smaller element is found
+        }
+        if (arr[i] > max) {
+            max = arr[i];  // Update max if a larger element is found
         }
     }
-    printf("%d %d",min,max);
+
+    // Print the minimum and maximum values
+    printf("%d", min);
+    printf("%d", max);
+
+    return 0;
 }
