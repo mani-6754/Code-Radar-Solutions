@@ -15,7 +15,7 @@ void main()
         }
         printf("\n");
     }
-{
+
     int a;
     scanf("%d",&a);
      for(int i=1;i<=a;i++)
@@ -30,5 +30,4 @@ void main()
         }
         printf("\n");
     }
-
 }
