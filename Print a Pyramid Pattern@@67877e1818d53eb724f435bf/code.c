@@ -13,7 +13,6 @@ void main()
         {
             printf("*");
         }
-        printf("\n");
         for(int j=n-1;j>0;j--)
         {
         printf(" ");
