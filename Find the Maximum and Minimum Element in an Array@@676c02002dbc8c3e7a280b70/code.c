@@ -1,7 +1,14 @@
 #include <stdio.h>
 
 int main() {
-    int arr[] = {10, 5, 20, 8, 15};  // Sample array
+    int n,a;
+    scanf("%d",&n);
+    int arr[];
+    for(int i=0;i<n;i++)
+    {
+        scanf("%d",&a);
+        arr[i]=a;
+    }
     int n = sizeof(arr) / sizeof(arr[0]); // Calculate the size of the array
     int min, max;
 
