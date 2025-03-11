@@ -9,14 +9,14 @@ int main() {
         scanf("%d",&a);
         arr[i]=a;
     }
-    int n = sizeof(arr) / sizeof(arr[0]); // Calculate the size of the array
+    int c = sizeof(arr) / sizeof(arr[0]); // Calculate the size of the array
     int min, max;
 
     // Initialize min and max with the first element
     min = max = arr[0];
 
     // Iterate through the rest of the array
-    for (int i = 1; i < n; i++) {
+    for (int i = 1; i < c; i++) {
         if (arr[i] < min) {
             min = arr[i];  // Update min if a smaller element is found
         }
