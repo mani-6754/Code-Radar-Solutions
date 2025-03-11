@@ -12,7 +12,7 @@ int main()
         for (int j = 0; j < comp; j++)
             printf(" ");
         for (int k = 0; k < 2 * n - comp; k++) {
-            printf("*");
+            printf("* ");
         }
         printf("\n");
     }
