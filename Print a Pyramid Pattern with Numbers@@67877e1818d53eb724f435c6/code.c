@@ -2,8 +2,6 @@
 
 int main() {
     int rows, i, j, number = 1;
-
-    printf("Enter the number of rows: ");
     scanf("%d", &rows);
 
     for (i = 1; i <= rows; i++) 
