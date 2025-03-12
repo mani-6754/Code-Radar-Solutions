@@ -1,5 +1,6 @@
 int isPrime(int n)
 {
+    int p=1;
     if(n==1||n==0)
     {
         return 0;
@@ -13,12 +14,17 @@ int isPrime(int n)
     {
         if(n%i==0)
         {
-            return 0;
+            p=0;
+            break;
         }
-        // else
-        // {
-        //     return 1;
-        // }
+    }
+    if(p==0)
+    {
+        return 0;
+    }
+    else
+    {
+        return 1;
     }
     }
 }
