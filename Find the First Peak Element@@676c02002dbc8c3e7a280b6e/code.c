@@ -33,27 +33,30 @@ int main()
         scanf("%d",&a);
         s[i]=a;
     }
+    for(int j=0;j<n-1;j++)
+    {
     if(n<3)
     {
-        for(int j=0;j<n-1;j++)
-    {
+        
+    
         if(s[j+1]>s[j])
         {
             printf("%d",s[j+1]);
             break;
         }
-            }
     }
     else
-    {
-    for(int j=0;j<n-1;j++)
     {
         if(s[j+1]>s[j]&&s[j+1]>s[j+2])
         {
             printf("%d",s[j+1]);
             break;
         }
-            }
+    }
+    else if(s[j+1]==s[j]&&[j+1]==s[j+2])
+    {
+        printf("%d",s[j])
+    }
     }
 }
     
