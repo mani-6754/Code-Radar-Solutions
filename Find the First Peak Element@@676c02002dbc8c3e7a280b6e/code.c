@@ -45,6 +45,10 @@ int main()
             break;
         }
     }
+    else if(s[j+1]==s[j]&&[j+1]==s[j+2])
+    {
+        printf("%d",s[j])
+    }
     else
     {
         if(s[j+1]>s[j]&&s[j+1]>s[j+2])
@@ -52,10 +56,6 @@ int main()
             printf("%d",s[j+1]);
             break;
         }
-    }
-    else if(s[j+1]==s[j]&&[j+1]==s[j+2])
-    {
-        printf("%d",s[j])
     }
     }
 }
