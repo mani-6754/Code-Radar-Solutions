@@ -35,7 +35,7 @@ int main()
     }
     for(int j=0;j<n-1;j++)
     {
-        if(s[j+1]>s[j])
+        if(s[j+1]>s[j]&&s[j+1]>s[j+2])
         {
             printf("%d",s[j+1]);
             break;
