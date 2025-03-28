@@ -10,9 +10,9 @@ int main()
         int number =65;
         for (int k = 1;k <= i; k++) {
             printf("%c ",number);
+            number++;
         }
         printf("\n");
-        number++;
     }
 
     return 0;
