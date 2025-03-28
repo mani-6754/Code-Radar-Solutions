@@ -8,10 +8,11 @@ int main()
     for (i = 1; i <= rows; i++) 
     {
         for (int k = 1;k <= i; k++) {
-            printf("%c ",number++);
+            printf("%c ",number);
         }
 
         printf("\n");
+        number++;
     }
 
     return 0;
