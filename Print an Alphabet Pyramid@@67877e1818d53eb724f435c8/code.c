@@ -12,6 +12,7 @@ int main()
             printf("%c ",number);
         }
         printf("\n");
+        number++;
     }
 
     return 0;
