@@ -7,10 +7,6 @@ int main()
 
     for (i = 1; i <= rows; i++) 
     {
-        for (j= rows;j>i;j--)
-        {
-            printf(" ");
-        }
         for (int k = 1;k <= i; k++) {
             printf("%c ",number);
         }
