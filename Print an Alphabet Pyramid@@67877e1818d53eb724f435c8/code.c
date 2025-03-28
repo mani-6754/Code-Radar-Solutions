@@ -9,6 +9,7 @@ int main()
     {
         for (int k = 1;k <= i; k++) {
             printf("%c ",number);
+            number++;
         }
 
         printf("\n");
