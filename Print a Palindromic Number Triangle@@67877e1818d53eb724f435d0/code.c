@@ -15,7 +15,8 @@ int combo(int a,int b)
 }
 int main()
 {
-    int n=5;
+    int n;
+    scanf("%d",&n);
     for(int i=0;i<n;i++)
     {
         for(int k=n;k>i;k--)
