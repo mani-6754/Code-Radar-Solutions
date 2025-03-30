@@ -16,7 +16,6 @@ int main()
             if(s[j]==s[k])
             {
                 c=s[j];
-                break;
             }
             else
             {
