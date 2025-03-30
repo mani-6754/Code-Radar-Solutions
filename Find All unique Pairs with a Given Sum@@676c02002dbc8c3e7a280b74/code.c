@@ -1,22 +1,26 @@
-#include<stdio.h>
-int main()
-{
-    int n,a,k;
-    scanf("%d\n",&n);
-    int s[n];
-    for(int i=0;i<n;i++)
-    {
-        scanf("%d",&a);
-        s[i]=a;
+#include <stdio.h>
+
+int main() {
+    int n, k;
+
+    // Input size of array
+    scanf("%d", &n);
+
+    int s[n];  // Declare array of size n
+
+    // Input array elements
+    for (int i = 0; i < n; i++) {
+        scanf("%d", &s[i]);
     }
-    scanf("%d",&k);
-    for(int j=0;j<n;j++)
-    {
-        for(int l=j+1;l<n;l++)
-        {
-            if(s[j]+s[l]==k)
-            {
-                if (s[j] + s[l] == k) {
+
+    // Input target sum
+    scanf("%d", &k);
+
+    // Loop to find pairs whose sum is equal to k
+    for (int j = 0; j < n; j++) {
+        for (int l = j + 1; l < n; l++) {
+            // Check for target sum
+            if (s[j] + s[l] == k) {
                 // Check if the pair has already been printed
                 int duplicate = 0;
                 for (int m = 0; m < j; m++) {
@@ -30,6 +34,9 @@ int main()
                 if (!duplicate) {
                     printf("%d %d\n", s[j], s[l]);
                 }
+            }
         }
     }
+
+    return 0;
 }
