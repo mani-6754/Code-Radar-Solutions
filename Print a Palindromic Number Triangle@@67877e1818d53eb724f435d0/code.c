@@ -17,7 +17,7 @@ int main()
         m=1+i-1;
         for(int l=1;l<i-1;l++)
         {
-            printf("%d",l);
+            printf("%d",m);
             m--;
         }
         printf("\n");
