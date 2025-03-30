@@ -15,6 +15,7 @@ int main()
         if(s[j]==k)
         {
             m=j;
+            break;
         }
         else
         {
