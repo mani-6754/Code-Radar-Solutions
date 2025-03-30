@@ -12,7 +12,7 @@ int main()
     scanf("%d",&k);
     for(int j=0;j<n;j++)
     {
-        for(int l=0;l<n;l++)
+        for(int l=j+1;l<n;l++)
         {
             if(s[j]+s[l]==k)
             {
