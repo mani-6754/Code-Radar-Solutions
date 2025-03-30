@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    int n,k,a;
+    int n,k,a,m;
     scanf("%d\n",&n);
     int s[n];
     for(int i=0;i<n;i++)
@@ -14,11 +14,12 @@ int main()
     {
         if(s[j]==k)
         {
-            printf("%d",j);
+            m=j;
         }
         else
         {
-            printf("%d",-1);
+            m=-1;
         }
     }
+    printf("%d",m);
 }
