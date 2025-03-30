@@ -18,7 +18,7 @@ int main()
             {
                 if(s[j]==s[l])
                 {
-                    printf("%d %d",s[j],s[l]);
+                    printf("%d %d\n",s[j],s[l]);
                     break;
                 }
                 else
