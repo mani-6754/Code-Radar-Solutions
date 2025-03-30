@@ -9,7 +9,7 @@ int main()
         scanf("%d",&a);
         s[i]=a;
     }
-    int max=s[0],max2=s[0];
+    int max=s[0],max2=-1;
     for(int j=0;j<n;j++)
     {
         if(max<s[j])
