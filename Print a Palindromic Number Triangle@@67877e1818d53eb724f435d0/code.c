@@ -1,35 +1,22 @@
-#include <stdio.h>
-int fact(int n)
-{
-    int f=1;
-    for(int i=1;i<=n;i++)
-    {
-        f=f*i;
-    }
-    return f;
-}
-int combo(int a,int b)
-{
-    int acb=fact(a)/(fact(b)*fact(a-b));
-    return acb;
-}
+#include<stdio.h>
 int main()
 {
-    int n;
-    scanf("%d",&n);
-    for(int i=0;i<n;i++)
+    int n=5;
+    for(int i=1;i<=n;i++)
     {
-        for(int k=n;k>i;k--)
+         for(int k=n-1;k>=i;k--)
+    {
+        printf(" ");
+        
+    }
+        for(int j=1;j<=i;j++)
         {
-            printf(" ");
+            printf("%d",j);
         }
-        for(int j=0;j<=i;j++)
+        for(int l=0;l<i-1;l++)
         {
-            int icj=combo(i,j);
-            printf("%d ",icj);
+            printf("*");
         }
         printf("\n");
     }
-
-    return 0;
 }
