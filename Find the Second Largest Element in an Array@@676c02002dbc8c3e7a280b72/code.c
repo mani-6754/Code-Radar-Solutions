@@ -24,5 +24,5 @@ int main()
             max2=s[j];
         }
     }
-    printf("%d",max[2]);
+    printf("%d",max2);
 }
