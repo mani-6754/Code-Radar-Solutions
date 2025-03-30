@@ -19,33 +19,20 @@ int main() {
     // Loop to find pairs whose sum is equal to k
     for (int j = 0; j < n - 1; j++) {
         for (int l = j + 1; l < n; l++) {
-            // Check if the sum of the pair equals k
+            // Check if the sum equals k and print the first valid pair
             if (s[j] + s[l] == k) {
-                // To avoid duplicates, check if this pair was already printed
-                int isDuplicate = 0;
-                
-                // Check previous pairs only up to current j and l
-                for (int m = 0; m < j; m++) {
-                    for (int n = m + 1; n < l; n++) {
-                        if ((s[m] == s[j] && s[n] == s[l]) || (s[m] == s[l] && s[n] == s[j])) {
-                            isDuplicate = 1;
-                            break;
-                        }
-                    }
-                    if (isDuplicate) {
-                        break;
-                    }
-                }
-
-                // Print the pair only if it's not a duplicate
-                if (!isDuplicate) {
-                    printf("%d %d\n", s[j], s[l]);
+                printf("%d %d\n", s[j], s[l]);
+                // Skip all future duplicate pairs
+                while (l < n - 1 && s[l] == s[l + 1]) {
+                    l++;
                 }
             }
+        }
+        // Skip all future duplicate elements for `j`
+        while (j < n - 1 && s[j] == s[j + 1]) {
+            j++;
         }
     }
 
     return 0;
 }
-
-
