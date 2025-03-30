@@ -16,14 +16,20 @@ int main()
         {
             if(s[j]+s[l]==k)
             {
-                if(s[j]==s[l])
-                {
-                    printf("%d %d\n",s[j],s[l]);
-                    break;
+                if (s[j] + s[l] == k) {
+                // Check if the pair has already been printed
+                int duplicate = 0;
+                for (int m = 0; m < j; m++) {
+                    if ((s[m] == s[j] && s[m + 1] == s[l]) || (s[m] == s[l] && s[m + 1] == s[j])) {
+                        duplicate = 1;
+                        break;
+                    }
                 }
-                else
-                printf("%d %d\n",s[j],s[l]);
-            }
+
+                // Print only if it's not a duplicate
+                if (!duplicate) {
+                    printf("%d %d\n", s[j], s[l]);
+                }
         }
     }
 }
