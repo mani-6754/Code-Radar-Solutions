@@ -2,7 +2,7 @@
 int main()
 {
     int n,a,k;
-    sanf("%d",&n);
+    scanf("%d",&n);
     int s[n];
     for(int i=0;i<n;i++)
     {
